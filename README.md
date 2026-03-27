@@ -111,3 +111,7 @@ git push -u origin main
 
 		#define DEF_BASE_M					
 			4	6	8	10	16	32	64	128	512	1024
+
+# 제안 모델 실행 흐름도
+![제안 모델 실행 흐름도](ReadMe/1. 제안 모델 실행 흐름도.png)
+
