@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\ReadMe">
+      <UniqueIdentifier>{c916b209-5833-4817-bdeb-09afc1f2cf8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\JC_Util">
+      <UniqueIdentifier>{a34f2b01-0be0-4458-bca0-4a3ba68f3833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\source">
+      <UniqueIdentifier>{6bfbd1cd-ee43-4d8c-ae1a-8b5b5144b2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\source\include">
+      <UniqueIdentifier>{39c13335-03be-446f-aef8-ca03f452c4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\source\src">
+      <UniqueIdentifier>{ff07394f-62ec-480c-85d2-6f83701046ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bin">
+      <UniqueIdentifier>{7bac0c51-5842-42e6-a5e8-9d23ee5bf2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bin\file">
+      <UniqueIdentifier>{03f052c6-fc76-487d-9fbb-0a04e6171475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\log">
+      <UniqueIdentifier>{88d9afc6-2250-4d15-8164-be49f68a622c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\lib">
+      <UniqueIdentifier>{58565c2d-151e-4688-9525-601a58fb4dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\conf">
+      <UniqueIdentifier>{bc2d333b-702b-4d45-90ba-cc51b35f0b45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\README.md">
+      <Filter>소스 파일\source\include</Filter>
+    </None>
+    <None Include="ReadMe\260205_ReadMe.md">
+      <Filter>소스 파일\ReadMe</Filter>
+    </None>
+    <None Include="ReadMe\250807_Seq.md">
+      <Filter>소스 파일\ReadMe</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5000">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5001">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5002">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5003">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5004">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5005">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5006">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5007">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5008">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5009">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="bin\file\127.0.0.1_5010">
+      <Filter>소스 파일\bin\file</Filter>
+    </None>
+    <None Include="lib\libcrypto.def">
+      <Filter>소스 파일\lib</Filter>
+    </None>
+    <None Include="lib\libssl.def">
+      <Filter>소스 파일\lib</Filter>
+    </None>
+    <None Include="conf\iapl_chord.conf">
+      <Filter>소스 파일\conf</Filter>
+    </None>
+    <None Include="ReadMe\260205_FingerTable.md">
+      <Filter>소스 파일\ReadMe</Filter>
+    </None>
+    <None Include="bin\1_MainNode.bat">
+      <Filter>소스 파일\bin</Filter>
+    </None>
+    <None Include="bin\2_SubNode.bat">
+      <Filter>소스 파일\bin</Filter>
+    </None>
+    <None Include="bin\3_StopNode.bat">
+      <Filter>소스 파일\bin</Filter>
+    </None>
+    <None Include="conf\temp.conf">
+      <Filter>소스 파일\conf</Filter>
+    </None>
+    <None Include="ReadMe\260210_TestSeq.md">
+      <Filter>소스 파일\ReadMe</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DefStruct.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\procUtil.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UtilFun.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="JC_Util\JC_Debug.h">
+      <Filter>소스 파일\JC_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="JC_Util\JC_Dump.h">
+      <Filter>소스 파일\JC_Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JC_Define.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UserCommand.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PrintFunc.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\procPingAndFixFinger.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\procRecvMsg.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\procStabilize.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\JC_Test.h">
+      <Filter>소스 파일\source\include</Filter>
+    </ClInclude>
+    <ClInclude Include="JC_Util\JC_Config.h">
+      <Filter>소스 파일\JC_Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\procUtil.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UtilFun.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="JC_Util\JC_Debug.c">
+      <Filter>소스 파일\JC_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="JC_Util\JC_Dump.c">
+      <Filter>소스 파일\JC_Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UserCommand.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PrintFunc.h.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\procPingAndFixFinger.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\procRecvMsg.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\procStabilize.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JC_Test.c">
+      <Filter>소스 파일\source\src</Filter>
+    </ClCompile>
+    <ClCompile Include="JC_Util\JC_Config.c">
+      <Filter>소스 파일\JC_Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="log\127.0.0.1_5000.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5001.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5002.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5003.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5004.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5005.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5006.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5007.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5008.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\127.0.0.1_5009.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+    <Text Include="log\SEQ_RESULT.log">
+      <Filter>소스 파일\log</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\libcrypto.lib">
+      <Filter>소스 파일\lib</Filter>
+    </Library>
+    <Library Include="lib\libcrypto_static.lib">
+      <Filter>소스 파일\lib</Filter>
+    </Library>
+    <Library Include="lib\libssl.lib">
+      <Filter>소스 파일\lib</Filter>
+    </Library>
+    <Library Include="lib\libssl_static.lib">
+      <Filter>소스 파일\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
