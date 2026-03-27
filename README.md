@@ -113,5 +113,5 @@ git push -u origin main
 			4	6	8	10	16	32	64	128	512	1024
 
 # 제안 모델 실행 흐름도
-![제안 모델 실행 흐름도]([./ReadMe/1. 제안 모델  실행 흐름도.png](https://github.com/SeoJungChul0110/260327_CTR_DHT/blob/db57ba69e7dc7a763aaaa5271d9d48deacfd470a/ReadMe/1.%20%EC%A0%9C%EC%95%88%20%EB%AA%A8%EB%8D%B8%20%20%EC%8B%A4%ED%96%89%20%ED%9D%90%EB%A6%84%EB%8F%84.png))
+![제안 모델 실행 흐름도](https://github.com/SeoJungChul0110/260327_CTR_DHT/blob/db57ba69e7dc7a763aaaa5271d9d48deacfd470a/ReadMe/1.%20%EC%A0%9C%EC%95%88%20%EB%AA%A8%EB%8D%B8%20%20%EC%8B%A4%ED%96%89%20%ED%9D%90%EB%A6%84%EB%8F%84.png)
 
