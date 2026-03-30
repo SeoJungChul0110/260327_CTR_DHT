@@ -16,7 +16,7 @@ git remote add origin https://github.com/SeoJungChul0110/260327\_CTR\_DHT.git
 git branch -M main
 git push -u origin main
 
-# 2 준비 사항
+# 1. 준비 사항
 	1. 메인 Node 실행 > 1_MainNode.bat
 		iapl_chord.exe c 6000
 		- 메인 Node 생성 :  (c)reate
@@ -38,7 +38,7 @@ git push -u origin main
 	3. 테스트용 Node 종료 > 3_StopNode.bat
 		
 		
-# 테스트 내용(기본 DHT)
+# 2. 테스트 내용(기본 DHT)
 	0. 설정 변경 
 		# 검색할때 패킷 카운트를 사용한다, USING_TEST_NODE_IDX가 0이상이면 전송 횟수값
 		USING_PACKET_CNT_FOR_TEST=0
@@ -70,7 +70,7 @@ git push -u origin main
 
 	3. 테스트용 Node 종료 > 3_StopNode.bat
 
-# 테스트 내용(패킷 카운드 )
+# 3. 테스트 내용(패킷 카운)
 	0. 설정 변경 
 		# 테스트할 노드 인덱스 -1이 아니면, 선택
 		USING_TEST_NODE_IDX=1
@@ -112,6 +112,6 @@ git push -u origin main
 		#define DEF_BASE_M					
 			4	6	8	10	16	32	64	128	512	1024
 
-# 제안 모델 실행 흐름도
+# 4. 제안 모델 실행 흐름도
 ![제안 모델 실행 흐름도](https://github.com/SeoJungChul0110/260327_CTR_DHT/blob/db57ba69e7dc7a763aaaa5271d9d48deacfd470a/ReadMe/1.%20%EC%A0%9C%EC%95%88%20%EB%AA%A8%EB%8D%B8%20%20%EC%8B%A4%ED%96%89%20%ED%9D%90%EB%A6%84%EB%8F%84.png)
 
