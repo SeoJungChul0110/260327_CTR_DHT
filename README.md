@@ -70,7 +70,7 @@ git push -u origin main
 
 	3. 테스트용 Node 종료 > 3_StopNode.bat
 
-# 3. 테스트 내용(패킷 카운)
+# 3. 테스트 내용(패킷 카운트-CTR)
 	0. 설정 변경 
 		# 테스트할 노드 인덱스 -1이 아니면, 선택
 		USING_TEST_NODE_IDX=1
