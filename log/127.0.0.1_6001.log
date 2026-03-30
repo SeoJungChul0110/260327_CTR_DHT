@@ -1,0 +1,395 @@
+
+0324_102210_[I] [strHash] [127.0.0.16000](13) 2. hash(687290220) % ringSize(32) => unHash(12)
+0324_102210_[I] [strHash] [127.0.0.16001](13) 2. hash(1531100641) % ringSize(32) => unHash(1)
+0324_102210_[I] [strHash] [127.0.0.16002](13) 2. hash(3314028141) % ringSize(32) => unHash(13)
+0324_102210_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102210_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102210_[D] Config] Sub NODE_CNT = 5
+0324_102210_[D] 	NODE_0 = [12] 127.0.0.1:6000
+0324_102210_[D] 	NODE_1 = [1] 127.0.0.1:6001
+0324_102210_[D] 	NODE_2 = [13] 127.0.0.1:6002
+0324_102210_[D] 	NODE_3 = [10] 127.0.0.1:6003
+0324_102210_[D] 	NODE_4 = [28] 127.0.0.1:6004
+0324_102210_[I] strSoclAddr: 127.0.0.16001
+0324_102210_[I] [strHash] [127.0.0.16001](13) 2. hash(1531100641) % ringSize(32) => unHash(1)
+0324_102210_[I] >>> Welcome to ChordNode Program! 
+0324_102210_[I] >>> Your IP address: 127.0.0.1, Port No: 6001, ID: 1
+0324_102210_[I] >>> Silent Mode is ON!
+0324_102210_[I] 127.0.0.1, 6001
+0324_102210_[I] CHORD> You have created a chord network!
+0324_102210_[I] CHORD> Your finger table has been updated!
+0324_102210_[I] => ext_bUsePingAndFixFinger = 1
+0324_102210_[I] => 1 ext_bUsePingAndFixFinger = 0
+0324_102210_[D] SET FINGER TABLE = 5
+0324_102218_[D] RecvFrom(127.0.0.1:60944) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102218_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102218_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102218_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102218_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102218_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  0
+0324_102218_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  0, S:  0
+0324_102218_[D] [#TotalPacketCnt(0)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102218_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102218_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102218_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102218_[I] End ProcessSearchNode
+0324_102218_[D] RecvFrom(127.0.0.1:58892) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102218_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102218_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102218_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102218_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102218_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  1
+0324_102218_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  1, S:  0
+0324_102218_[D] [#TotalPacketCnt(1)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102218_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102218_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102218_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102218_[I] End ProcessSearchNode
+0324_102218_[D] RecvFrom(127.0.0.1:58904) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102218_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102218_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102218_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102218_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102218_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  1
+0324_102218_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  1, S:  1
+0324_102218_[D] [#TotalPacketCnt(2)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102218_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102218_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102218_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102218_[I] End ProcessSearchNode
+0324_102218_[D] RecvFrom(127.0.0.1:58910) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102219_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102219_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102219_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102219_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102219_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  2
+0324_102219_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  2, S:  1
+0324_102219_[D] [#TotalPacketCnt(3)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102219_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102219_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102219_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102219_[I] End ProcessSearchNode
+0324_102224_[D] RecvFrom(127.0.0.1:59778) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102224_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102224_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102224_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102224_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102224_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  2
+0324_102224_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  3, S:  2
+0324_102224_[D] [#TotalPacketCnt(4)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102224_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102224_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102224_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102224_[I] End ProcessSearchNode
+0324_102224_[D] RecvFrom(127.0.0.1:59784) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102224_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102224_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102224_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102224_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102224_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  3
+0324_102224_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  3, S:  2
+0324_102224_[D] [#TotalPacketCnt(5)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102224_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102224_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102224_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102224_[I] End ProcessSearchNode
+0324_102225_[D] RecvFrom(127.0.0.1:52927) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102225_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102225_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102225_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102225_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102225_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  3
+0324_102225_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  4, S:  3
+0324_102225_[D] [#TotalPacketCnt(6)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102225_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102225_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102225_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102225_[I] End ProcessSearchNode
+0324_102225_[D] RecvFrom(127.0.0.1:52937) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102225_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102225_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102225_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102225_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102225_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  4
+0324_102225_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  4, S:  3
+0324_102225_[D] [#TotalPacketCnt(7)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102225_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102225_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102225_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102225_[I] End ProcessSearchNode
+0324_102225_[D] RecvFrom(127.0.0.1:52945) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102225_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102225_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102225_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102225_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102225_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  4
+0324_102225_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  5, S:  4
+0324_102225_[D] [#TotalPacketCnt(8)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102225_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102225_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102225_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102225_[I] End ProcessSearchNode
+0324_102230_[D] RecvFrom(127.0.0.1:60631) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102230_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102230_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102230_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102230_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102230_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  5
+0324_102230_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  5, S:  4
+0324_102230_[D] [#TotalPacketCnt(9)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102230_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102230_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102230_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102230_[I] End ProcessSearchNode
+0324_102230_[D] RecvFrom(127.0.0.1:60635) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102230_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102230_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102230_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102230_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102230_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  5
+0324_102230_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  6, S:  5
+0324_102230_[D] [#TotalPacketCnt(10)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102230_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102230_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102230_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102230_[I] End ProcessSearchNode
+0324_102230_[D] RecvFrom(127.0.0.1:60651) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102230_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102230_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102230_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102230_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102230_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  6
+0324_102230_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  7, S:  5
+0324_102230_[D] [#TotalPacketCnt(11)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102230_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102230_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102230_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102230_[I] End ProcessSearchNode
+0324_102231_[D] RecvFrom(127.0.0.1:60659) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102231_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102231_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102231_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102231_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102231_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  6
+0324_102231_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  7, S:  6
+0324_102231_[D] [#TotalPacketCnt(12)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102231_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102231_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102231_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102231_[I] End ProcessSearchNode
+0324_102232_[D] RecvFrom(127.0.0.1:62973) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102232_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102232_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102232_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102232_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102232_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  7
+0324_102232_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  8, S:  6
+0324_102232_[D] [#TotalPacketCnt(13)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102232_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102232_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102232_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102232_[I] End ProcessSearchNode
+0324_102233_[D] RecvFrom(127.0.0.1:62986) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102233_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102233_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102233_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102233_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102233_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  7
+0324_102233_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  8, S:  7
+0324_102233_[D] [#TotalPacketCnt(14)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102233_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102233_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102233_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102233_[I] End ProcessSearchNode
+0324_102233_[D] RecvFrom(127.0.0.1:62992) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102233_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102233_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102233_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102233_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102233_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  8
+0324_102233_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R:  9, S:  7
+0324_102233_[D] [#TotalPacketCnt(15)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102233_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102233_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102233_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102233_[I] End ProcessSearchNode
+0324_102233_[D] RecvFrom(127.0.0.1:63006) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102233_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102233_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102233_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102233_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102233_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  8
+0324_102233_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 10, S:  8
+0324_102233_[D] [#TotalPacketCnt(16)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102233_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102233_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102233_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102233_[I] End ProcessSearchNode
+0324_102234_[D] RecvFrom(127.0.0.1:63012) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102234_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102234_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102234_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102234_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102234_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  9
+0324_102234_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 10, S:  8
+0324_102234_[D] [#TotalPacketCnt(17)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102234_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102234_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102234_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102234_[I] End ProcessSearchNode
+0324_102243_[D] RecvFrom(127.0.0.1:51175) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102243_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102243_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102243_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102243_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102243_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S:  9
+0324_102243_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 11, S:  9
+0324_102243_[D] [#TotalPacketCnt(18)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102243_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102243_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102243_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102243_[I] End ProcessSearchNode
+0324_102243_[D] RecvFrom(127.0.0.1:51185) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102243_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102243_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102243_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102243_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102243_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 10
+0324_102243_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 11, S:  9
+0324_102243_[D] [#TotalPacketCnt(19)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102243_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102243_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102243_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102243_[I] End ProcessSearchNode
+0324_102244_[D] RecvFrom(127.0.0.1:51193) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102244_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102244_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102244_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102244_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102244_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 10
+0324_102244_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 12, S: 10
+0324_102244_[D] [#TotalPacketCnt(20)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102244_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102244_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102244_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102244_[I] End ProcessSearchNode
+0324_102244_[D] RecvFrom(127.0.0.1:51190) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102244_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102244_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102244_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102244_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102244_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 11
+0324_102244_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 12, S: 10
+0324_102244_[D] [#TotalPacketCnt(21)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102244_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102244_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102244_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102244_[I] End ProcessSearchNode
+0324_102244_[D] RecvFrom(127.0.0.1:51194) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102244_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102244_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102244_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102244_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102244_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 11
+0324_102244_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 13, S: 11
+0324_102244_[D] [#TotalPacketCnt(22)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102244_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102244_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102244_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102244_[I] End ProcessSearchNode
+0324_102246_[D] RecvFrom(127.0.0.1:51210) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102246_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102246_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102246_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102246_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102246_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 12
+0324_102246_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 14, S: 11
+0324_102246_[D] [#TotalPacketCnt(23)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102246_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102246_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102246_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102246_[I] End ProcessSearchNode
+0324_102246_[D] RecvFrom(127.0.0.1:51218) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102246_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102246_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102246_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102246_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102246_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 12
+0324_102246_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 14, S: 12
+0324_102246_[D] [#TotalPacketCnt(24)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102246_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102246_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102246_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102246_[I] End ProcessSearchNode
+0324_102247_[D] RecvFrom(127.0.0.1:51230) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102247_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102247_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102247_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102247_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102247_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 13
+0324_102247_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 15, S: 12
+0324_102247_[D] [#TotalPacketCnt(25)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102247_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102247_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102247_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102247_[I] End ProcessSearchNode
+0324_102247_[D] RecvFrom(127.0.0.1:50176) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102247_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102247_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102247_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102247_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102247_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 13
+0324_102247_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 15, S: 13
+0324_102247_[D] [#TotalPacketCnt(26)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102247_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102247_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102247_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102247_[I] End ProcessSearchNode
+0324_102249_[D] RecvFrom(127.0.0.1:50182) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102249_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102249_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102249_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102249_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102249_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 14
+0324_102249_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 16, S: 13
+0324_102249_[D] [#TotalPacketCnt(27)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102249_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102249_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102249_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102249_[I] End ProcessSearchNode
+0324_102249_[D] RecvFrom(127.0.0.1:50196) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102249_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102249_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102249_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102249_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102249_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 14
+0324_102249_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 17, S: 14
+0324_102249_[D] [#TotalPacketCnt(28)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102249_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102249_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102249_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102249_[I] End ProcessSearchNode
+0324_102249_[D] RecvFrom(127.0.0.1:50202) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102249_[I] Recv Head 32 bytes([SENDER NODE] (ID:13) (127.0.0.1:6002)
+0324_102249_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102249_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102249_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102249_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 15
+0324_102249_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 17, S: 14
+0324_102249_[D] [#TotalPacketCnt(29)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6004) ID: [  28] 
+0324_102249_[I] [strHash] [127.0.0.16004](13) 2. hash(3431028796) % ringSize(32) => unHash(28)
+0324_102249_[I] Send 192 bytes(127.0.0.1 : 6004)
+0324_102249_[I] Send 32 bytes(127.0.0.1 : 6004)
+0324_102249_[I] End ProcessSearchNode
+0324_102250_[D] RecvFrom(127.0.0.1:50216) DEF_HEAD_MSG_ID_FIND_NODE
+0324_102250_[I] Recv Head 32 bytes([SENDER NODE] (ID:28) (127.0.0.1:6004)
+0324_102250_[I] Recv Body 32 bytes [SEARCH NODE] (ID:10)(127.0.0.1:6003)
+0324_102250_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102250_[I] Search Fingle Table [SerchNode (ID:10)(127.0.0.1:6003) !!!
+0324_102250_[D] # [ 0] (127.0.0.1 : 6003) ID: [  10] - R:  0, S: 15
+0324_102250_[D] # [ 1] (127.0.0.1 : 6004) ID: [  28] - R: 18, S: 15
+0324_102250_[D] [#TotalPacketCnt(30)]  (127.0.0.1 : 6003) ID: [  10] => (127.0.0.1 : 6003) ID: [  10] 
+0324_102250_[I] [strHash] [127.0.0.16003](13) 2. hash(1063226250) % ringSize(32) => unHash(10)
+0324_102250_[I] Send 192 bytes(127.0.0.1 : 6003)
+0324_102250_[I] Send 32 bytes(127.0.0.1 : 6003)
+0324_102250_[I] End ProcessSearchNode
