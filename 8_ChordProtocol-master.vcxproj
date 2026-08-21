@@ -38,10 +38,10 @@
     <None Include="include\README.md" />
     <None Include="lib\libcrypto.def" />
     <None Include="lib\libssl.def" />
-    <None Include="ReadMe\260205_FingerTable.md" />
-    <None Include="ReadMe\260205_ReadMe.md" />
-    <None Include="ReadMe\250807_Seq.md" />
-    <None Include="ReadMe\260210_TestSeq.md" />
+    <None Include="ReadMe\260212_계산 및 결과(CTR 사용).xlsx" />
+    <None Include="ReadMe\260212_테스트 결과.xlsx" />
+    <None Include="ReadMe\7.References.bib" />
+    <None Include="ReadMe\그림.pptx" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\DefStruct.h" />
@@ -84,12 +84,20 @@
     <Text Include="log\127.0.0.1_5008.log" />
     <Text Include="log\127.0.0.1_5009.log" />
     <Text Include="log\SEQ_RESULT.log" />
+    <Text Include="ReadMe\1. 흐름도 작성.txt" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\libcrypto.lib" />
     <Library Include="lib\libcrypto_static.lib" />
     <Library Include="lib\libssl.lib" />
     <Library Include="lib\libssl_static.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ReadMe\1. 제안 모델  실행 흐름도.png" />
+    <Image Include="ReadMe\5.png" />
+    <Image Include="ReadMe\6.png" />
+    <Image Include="ReadMe\7.png" />
+    <Image Include="ReadMe\8.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

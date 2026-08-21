@@ -48,12 +48,6 @@
     <None Include="include\README.md">
       <Filter>소스 파일\source\include</Filter>
     </None>
-    <None Include="ReadMe\260205_ReadMe.md">
-      <Filter>소스 파일\ReadMe</Filter>
-    </None>
-    <None Include="ReadMe\250807_Seq.md">
-      <Filter>소스 파일\ReadMe</Filter>
-    </None>
     <None Include="bin\file\127.0.0.1_5000">
       <Filter>소스 파일\bin\file</Filter>
     </None>
@@ -96,9 +90,6 @@
     <None Include="conf\iapl_chord.conf">
       <Filter>소스 파일\conf</Filter>
     </None>
-    <None Include="ReadMe\260205_FingerTable.md">
-      <Filter>소스 파일\ReadMe</Filter>
-    </None>
     <None Include="bin\1_MainNode.bat">
       <Filter>소스 파일\bin</Filter>
     </None>
@@ -111,7 +102,16 @@
     <None Include="conf\temp.conf">
       <Filter>소스 파일\conf</Filter>
     </None>
-    <None Include="ReadMe\260210_TestSeq.md">
+    <None Include="ReadMe\7.References.bib">
+      <Filter>소스 파일\ReadMe</Filter>
+    </None>
+    <None Include="ReadMe\260212_계산 및 결과(CTR 사용).xlsx">
+      <Filter>소스 파일\ReadMe</Filter>
+    </None>
+    <None Include="ReadMe\260212_테스트 결과.xlsx">
+      <Filter>소스 파일\ReadMe</Filter>
+    </None>
+    <None Include="ReadMe\그림.pptx">
       <Filter>소스 파일\ReadMe</Filter>
     </None>
   </ItemGroup>
@@ -228,6 +228,9 @@
     <Text Include="log\SEQ_RESULT.log">
       <Filter>소스 파일\log</Filter>
     </Text>
+    <Text Include="ReadMe\1. 흐름도 작성.txt">
+      <Filter>소스 파일\ReadMe</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\libcrypto.lib">
@@ -242,5 +245,22 @@
     <Library Include="lib\libssl_static.lib">
       <Filter>소스 파일\lib</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ReadMe\1. 제안 모델  실행 흐름도.png">
+      <Filter>소스 파일\ReadMe</Filter>
+    </Image>
+    <Image Include="ReadMe\5.png">
+      <Filter>소스 파일\ReadMe</Filter>
+    </Image>
+    <Image Include="ReadMe\6.png">
+      <Filter>소스 파일\ReadMe</Filter>
+    </Image>
+    <Image Include="ReadMe\7.png">
+      <Filter>소스 파일\ReadMe</Filter>
+    </Image>
+    <Image Include="ReadMe\8.png">
+      <Filter>소스 파일\ReadMe</Filter>
+    </Image>
   </ItemGroup>
 </Project>
