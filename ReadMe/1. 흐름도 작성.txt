@@ -56,6 +56,12 @@ graph TD
 
 
 -----------------------------------------------------------------------
+
+https://mermaidviewer.com/
+https://mermaid.ai/live
+
+https://app.diagrams.net/
+배치(Arrange) > 삽입(Insert) > 고급(Advanced) > Mermaid
 ---------------------------------------------------------------
 
 
@@ -75,7 +81,21 @@ graph TD
     ThreadStart -->|Thread 2| RecvThread[메시지 수신]
     ThreadStart -->|Thread 3| MaintThread[네트워크 안정화]
 
+graph LR
+    %% 1. 시스템 초기화
+    Start([프로그램 시작]) --> LoadConf[iapl_chord.conf 파일 로드 및 가상 노드 설정]
+    LoadConf --> CreateJoin{네트워크 참여 방식}
     
+    CreateJoin -- "Create (새 네트워크 생성)" --> CreateNet[Predecessor 및 Finger Table을 자기 자신으로 초기화]
+    CreateJoin -- "Join (기존 네트워크 참여)" --> JoinNet[Helper 노드에 Join 요청 후 자신의 Successor 갱신]
+    
+    CreateNet --> ThreadStart[멀티 스레드 구동 시작]
+    JoinNet --> ThreadStart
+    
+    %% 2. 스레드 분기
+    ThreadStart -->|Thread 1| MainLoop[사용자 명령어 처리]
+    ThreadStart -->|Thread 2| RecvThread[메시지 수신]
+    ThreadStart -->|Thread 3| MaintThread[네트워크 안정화]
 
 ----------------------------
 명령어 처리
